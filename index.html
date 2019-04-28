@@ -4,11 +4,13 @@
         <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124030879-1"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+  dataLayer.push(arguments);
+}
+gtag('js', new Date());
 
-  gtag('config', 'UA-124030879-1');
+gtag('config', 'UA-124030879-1');
 </script>
 
       <!-- <h4 class="nav_tabsw" style="margin-left:700px"><a href="http://msoma.org/">About me</a></h4> -->
@@ -19,7 +21,7 @@
 
         <!-- Facebook Open Graph meta -->
         <meta property="og:title" content="Linus Kipkoech">
-        <meta property="og:description" content="Student — University of California, Berkeley">
+        <meta property="og:description" content="Recent Grad - University of California, Berkeley">
         <meta property="og:image" content="images/linus.jpg">
         <meta property="og:url" content="www.kipkoechlinuss.com">
 
@@ -61,7 +63,7 @@
                                 <span>Hey, I'm Linus,</span>
                             </h1>
                             <h1 class="block__title">
-                                <span>a passionate<em>Software Engineer</em> studying at the <em>University of California</em> at Berkeley</span>
+                                <span>a passionate<em> Software Engineer</em> graduated from <em>University of California</em> at Berkeley</span>
                             </h1>
                             <div class="block__cta">
                                 <a href="mailto:kipkoechlinuss@berkeley.edu">
@@ -71,22 +73,21 @@
                             <div class="block__cta">
                                 <a href="/images/linus_resume.pdf" download="Resume">
                             <span>Resume</span>
-
-                            </a>
+                          </a>
                         </div>
                             <div class="block__social">
                                 <a class="block__social__link" target="_blank" href="https://www.facebook.com/linus.kipkoech.1">
-                                    <svg><use xlink:href="/images/svg-defs.svg#facebook"/></svg>
+                                    <!-- <svg><use xlink:href=""/></svg> --> facebook
                                 </a>
                                 <a class="block__social__link" target="_blank" href="http://github.com/kipkoechlinuss">
-                                    <svg><use xlink:href="/images/svg-defs.svg#github"/></svg>
-                                </a>
+<!--                                     <svg><use xlink:href="/images/svg-defs.svg#github"/></svg> github
+ -->                                </a>
                                 <a class="block__social__link" target="_blank" href="https://www.facebook.com/linus.kipkoech.1">
-                                    <svg><use xlink:href="/images/svg-defs.svg#codepen-codepen-logo"/></svg>
-                                </a>
+<!--                                     <svg><use xlink:href="/images/svg-defs.svg#codepen-codepen-logo"/></svg>
+ -->                                </a>
                                 <a class="block__social__link" target="_blank" href="https://linkedin.com/in/linuskipkoech">
-                                    <svg><use xlink:href="/images/svg-defs.svg#linkedin"/></svg>
-                                </a>
+<!--                                     <svg><use xlink:href="/images/svg-defs.svg#linkedin"/> jjjj</svg> LinkedIn
+ -->                                </a>
                             </div>
                         </div>
                     </div>
@@ -99,8 +100,7 @@
                                 <h2 class="content__tag">Who?</h2>
                             </div>
                             <div class="content__inner">
-                                <p>Hey what's up? Full name's Linus Kipkoech but everyone calls me Linus. I am currently pursuing Bachelor’s degree in Electrical Engineering and Computer Science at the University of California, Berkeley.
-                                  I am due for graduation on December 2018. I am currently seeking an entry level position in Software Engineering.</p>
+                                <p>Hey what's up? Full name's Linus Kipkoech but everyone calls me Linus. I am a recent graduate from UC Berkeley with a Bachelor’s degree in Electrical Engineering and Computer Science. I am currently seeking an entry level position in Software Engineering.</p>
                                 <p></p>
                                 <p></p>
                                 <p>Fluent in <em>Java</em> Python<em> SQL</em> <em> HTML</em></em> <em>UNIX</em> and improving on my <em>JavaScript</em> <em>jQuery</em> <em>C</em><em>PHP  </em>every day.
@@ -113,7 +113,21 @@
                                 <h2 class="content__tag">Work Experience</h2>
                             </div>
                             <div class="content__inner">
+
                                 <div class="project">
+                                    <h3 class="project__title"><a href="http://statewidedatabase.org/" target="_blank">Full Stack Developer - &ensp;California Statewide Database </a></h3>
+                                     <p  class="experience__time">Jan 2018 — Present</p>
+                                    <p class="project__description">
+
+                                    <li>	Modernized the website for the organization using PHP, HTML, JavaScript and CSS. The website serves thousands of
+                                      clients.</li>
+                                    <li>	Works with IT environments consisting of various Linux servers and cloud based website and server. Assisted in migrating a local server to Amazon Web Services EC2 </li>
+                                    <li>Provides Linux support to staff and manages all the machines used in the office. Also assisted in implementation of a new website.</li>
+                                    <li>Worked with other members of IT team to develop effective server data recovery plan by configuring raid 5 and raid 0 on the servers </li>
+                                    <li>Collaborates with a team of more than five people to design a road map technology and infrastructure of the organization.</li>
+
+                                    </p>
+                                </div>  <div class="project">
                                     <h3 class="project__title"><a href="#" target="_blank">Software Engineering Intern -&ensp; Walmart Labs &ensp;San Bruno<p class="experience__time">June 2017 — August 2017</p></a></h3>
                                     <p class="project__description">
                                        <li>Worked on ELK (Elastic search, Logstash and Kibana) as a solution to replace manual querying of the database for Walmart’s 1 billion plus customer records. </li>
@@ -125,20 +139,10 @@
                                       <li>Created pre-configured custom OneOps (Walmart’s cloud) images rapid environment for development, test and production environments.<br /></li>
                                       </p>
                                 </div>
-                                <div class="project">
-                                    <h3 class="project__title"><a href="http://statewidedatabase.org/" target="_blank">Full Stack Developer - &ensp;California Statewide Database </a></h3>
-                                     <p  class="experience__time">Jan 2018 — Present</p>
-                                    <p class="project__description">
 
-                      <li>	Develops new website for the organization using PHP, HTML, JavaScript and CSS. The website serves thousands of
-clients.</li>
-<li>	Works with IT environments consisting of various Linux servers and cloud based website and server. Assisted in migrating a local server to Amazon Web Services EC2 </li>
-<li>Provides Linux support to staff and manages all the machines used in the office. Also assisted in implementation of a new website.</li>
-<li>Worked with other members of IT team to develop effective server data recovery plan by configuring raid 5 and raid 0 on the servers </li>
-<li>Collaborates with a team of more than five people to design a road map technology and infrastructure of the organization.</li>
 
-                                    </p>
-                                </div>
+
+
                                 <div class="project">
                                     <h3 class="project__title"><a href="#" target="_blank"> Student Assistant - &ensp;Berkeley International Office </a></h3>
                                     <p  class="experience__time">May 2015 — August 2015</p>
@@ -146,16 +150,7 @@ clients.</li>
                                       international students’ data on a daily basis. Also served as front-desk customer
                                        service giving feedback and scheduling appointments for the clients</li></p>
                                 </div>
-                                <!-- <div class="project">
-                                    <h3 class="project__title"><a href="" target="_blank">OKCOOL</a></h3>
-                                    <p class="project__description">Social, supercharged.
-                                    </p>
-                                </div> -->
-                                <!-- <div class="project">
-                                    <h3 class="project__title"><a href="#" target="_blank">Don't Panic</a></h3>
-                                    <p class="project__description">Branding &amp; Design Agency. Used React and Contentful API for the Journal part of the site.
-                                    </p>
-                                </div> -->
+
                             </div>
                         </div>
                         <div class="content content--exp">
@@ -171,9 +166,20 @@ clients.</li>
                                     <!-- <p class="experience__time">January — June 2015</p>
                                     <p class="experience__location">Nairobi, Kenya</p>
                                     <p class="experience__role">Internship</p> -->
+                                  </div>
+                                  <div class="content__inner">
+                                    <div class="experience">
+                                        <h3 class="experience__agency"><a href="https://github.com/pkoech/bearmaps">BearMaps</a></h3>
+                                        <p class="experience__time">September 2015 — Present</p>
+                                        <p class="experience__location">Berkeley, California</p>
+                                        <p class="experience__role">Software Engineer</p>
+                                        <!-- <p class="experience__time">January — June 2015</p>
+                                        <p class="experience__location">Nairobi, Kenya</p>
+                                        <p class="experience__role">Internship</p> -->
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                            </div>
                     </div>
                 </div>
             </div>
